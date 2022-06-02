@@ -1,0 +1,151 @@
+:root {
+	/* Primary */
+	--Red: hsl(0, 78%, 62%);
+	--Cyan: hsl(180, 62%, 55%);
+	--Orange: hsl(34, 97%, 64%);
+	--Blue: hsl(212, 86%, 64%);
+	/* Neutral */
+	--Very-Dark-Blue: hsl(234, 12%, 34%);
+	--Grayish-Blue: hsl(229, 6%, 66%);
+	--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--Very-Light-Gray);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+img {
+	display: block;
+}
+
+.header .title,
+.header .title__important {
+	font-size: 1.8em;
+	text-align: center;
+	margin: 0;
+}
+
+.header .title {
+	color: var(--Grayish-Blue);
+	font-weight: 400;
+}
+
+.header .title__important {
+	color: var(--Very-Dark-Blue);
+	font-weight: 600;
+}
+
+.header .title__more-information {
+	color: var(--Grayish-Blue);
+	text-align: center;
+	width: 60%;
+	margin: 20px auto 50px auto;
+}
+
+.container__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+
+}
+
+.card__one,
+.card__two,
+.card__three,
+.card__four {
+	width: 250px;
+	color: var(--Grayish-Blue);
+	font-size: .9em;
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+.card__one img,
+.card__two img,
+.card__three img,
+.card__four img {
+	width: 45px;
+	position: relative;
+	left: 12.5rem;
+}
+
+.titles__cards {
+	color: var(--Very-Dark-Blue);
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.card__one-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: 1 / 1;
+	grid-row: 1 / 3;
+}
+
+.card__one {
+	border-top: 3px solid var(--Cyan);
+}
+
+.card__two {
+	border-top: 3px solid var(--Red);
+	grid-column: 2 / 3;
+}
+
+
+.card__three {
+	border-top: 3px solid var(--Orange);
+	grid-column: 2 / 3;
+}
+
+.card__four-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: 3 / 3;
+	grid-row: 1 / 3;
+}
+
+.card__four {
+	border-top: 3px solid var(--Blue);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+	.header .title {
+		margin-top: 2rem;
+	}
+
+	.header .title,
+	.header .title__important {
+		font-size: 1.4em;
+	}
+
+	.header .title__more-information {
+		font-size: .9em;
+		width: 80%;
+	}
+
+	.container__cards {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card__four-grid {
+		margin-bottom: 2rem;
+	}
+}
