@@ -35,7 +35,7 @@ Los usuarios deben ser capaces de:
 ### Enlaces
 
 - URL de la solución (Frontend Mentor): [Solución en Frontend Mentor](https://www.frontendmentor.io/solutions/accessibility-flexbox-gridlayout-responsivedesign-variables-queries-JF76Gmpa7h).
-- URL del sitio en vivo: [En vivo](https://boudgnosis.github.io/four-card-feature-section-master/)
+- URL del sitio en vivo: [En vivo](https://juanduquepy.github.io/four-card-feature-section-master/)
 
 ## Mi Proceso
 
@@ -57,6 +57,5 @@ Los usuarios deben ser capaces de:
 
 - Codepen - [@boudgnosis](https://codepen.io/boudgnosis)
 - Frontend Mentor - [@boudgnosis](https://www.frontendmentor.io/profile/boudgnosis)
-- Twitter - [@juan_ariasd](https://twitter.com/juan_ariasd)   
 - Dev - [@juan_duque](https://dev.to/juan_duque)
 - Linkedink - [juan pablo arias duque](https://www.linkedin.com/in/jpariasduque/)
